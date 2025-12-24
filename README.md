@@ -7,6 +7,14 @@ This project is an **Enterprise Risk Management (ERM) System** developed for Ter
 
 It bridges the gap between static financial reports and dynamic risk modeling by allowing the Investment Committee to run real-time "What-If" scenarios (e.g., Currency Devaluation, Regional Contagion) and instantly generate board-ready PDF reports.
 
+## 🧰 Tech Stack
+* **Python 3.10+:** Core logic and simulation engine.
+* **Streamlit:** Interactive web dashboard interface.
+* **NumPy & Pandas:** High-performance Monte Carlo simulations (GBM) and data wrangling.
+* **Plotly:** Interactive financial charting and heatmaps.
+* **FPDF:** Automated generation of board-ready PDF reports.
+* **Matplotlib & Seaborn:** Statistical visualizations (in research notebooks).
+
 ### Key Features
 * **Monte Carlo Engine:** Runs 10,000 simulations using Geometric Brownian Motion (GBM).
 * **Liquidity Stress Testing:** Incorporates "Fire-Sale" discounts to model real estate illiquidity.
