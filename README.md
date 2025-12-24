@@ -1,4 +1,3 @@
-```markdown
 # 🏦 Terrace Africa Institutional Risk Dashboard
 
 ![Dashboard Overview](assets/dashboard_main.png)
@@ -20,7 +19,6 @@ The repository is organized to separate data science logic, user interface code,
 ---
 
 ```text
-
 Terrace-Africa-Institutional-Risk-Dashboard/
 │
 ├── assets/                          # Folder for your screenshots
@@ -83,9 +81,10 @@ Terrace-Africa-Institutional-Risk-Dashboard/
     ```
 
 4.  **Operational Note**
+    ```bash
     * The app will auto-generate a `portfolio_data_final.csv` file on the first run.
     * Edit this CSV to update live asset valuations.
-
+    ```
 ---
 
 ## ⚠️ Disclaimer: Data Integrity & Simulation
